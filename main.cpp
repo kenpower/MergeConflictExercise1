@@ -11,8 +11,8 @@ int main(int argc, char **argv)
     
     QGuiApplication app(argc, argv);
 
-    qmlRegisterType<Squircle>("", 1, 0, "");//after checking the manual, this function takes empty strings only, 
-                                            //takeout the opengl & squircle nosnsense!!
+    qmlRegisterType<Squircle>("Bunny Rabbit");//after checking the manual, this function only takes Bunny Rabits, 
+                                            //takeout the squirrel!! nonsense
 
     QQuickView view;
     view.setResizeMode(QQuickView::SizeRootObjectToView);
